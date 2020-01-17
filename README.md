@@ -1,37 +1,37 @@
-# _{Application Name}_
+# _Potion Quest_
 
-#### _{Brief description of application}, {Date of current version}_
+#### _Fantasy RPG survey for designed to suggest a programming language. January 2020._
 
-#### By _**{List of contributors}**_
+#### By _**Jeremy Kale Padot**_
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_A fantasy rpg based survey form that is designed to suggest a programming language to the user. Its asks the user questions and gathers information. The answers provided represent numerical value which dictate wich programming language will be awarded. the options are: React, C#, and JS. A special note will appear to users who do not complete the survey._
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
+* _If using gh-pages simply click the clink to view. Select answers to the questions and click the submit button for result. Refresh page to restart._
+* _For Devs, open git repository and copy repo link. In your terminal desktop clone the repo and open in text editor. VSCode suggested._
+* _You will need to download bootstrap vr 3.3.7 and add to your css file. download from the website adn drag to your folder. You will also need to visit jQuery and download ver 3.4.1. This can be done by right clicking the link and 'saving as' in your js folder in your text editor. Make sure your link and script are up to date with applied bootstrap and jquery versions._
 * _easy-to-understand_
 * _format_
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
+__
 
 ## Known Bugs
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+_Page seems to function normally, applied background img not showing behind container and form. Actively fixing this problem._
 
 ## Support and contact details
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+_Contact Jeremy for bugs and issues jeremy@padot.us_
 
 ## Technologies Used
 
-_{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+_Macbook pro, html, JS, CSS, bootstrap 3.3.7 jquery 3.4.1, google fonts_
 
 ### License
 
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
+*Made by Jeremy Kale Padot for educational purposes only at Epicodus*
 
-Copyright (c) 2016 **_{List of contributors or company name}_**
+Copyright (c) 2020 **_Jeremy kale Padot_**
