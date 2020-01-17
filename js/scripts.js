@@ -1,20 +1,11 @@
 $(document).ready(function(){
   $("form#survey").submit(function(){
-  
+  event.preventDefault();
   var result = calculate()
 
-  function calculate() {
-  var path = parseInt($("#path").val());
-  var item = parseInt($("#item").val());
-  var goblin = parseInt($("#goblin").val());
-  var village = parseInt($("#village").val());
-  var castle = parseInt($("#castle").val());
-  return path + item + goblin + village + castle;
-
-
-};
+  
     
-    if (result = 15) {
+    if (result === 15) {
       $("#react").show();
       $("#c").hide();
       $("#js").hide();
@@ -30,7 +21,7 @@ $(document).ready(function(){
       $("#c").hide();
       $("#react").hide();
       $("#doom").hide();
-    } else if (result > 5) {
+    } else  {
           $("#doom").show();
           $("#js").hide();
           $("#react").hide();
@@ -38,8 +29,17 @@ $(document).ready(function(){
         
       }
       })
-event.preventDefault();
-    
+
+    function calculate() {
+  var path = parseInt($("#path").val());
+  var item = parseInt($("#item").val());
+  var goblin = parseInt($("#goblin").val());
+  var village = parseInt($("#village").val());
+  var castle = parseInt($("#castle").val());
+  return path + item + goblin + village + castle;
+
+
+};
 
 
 });
