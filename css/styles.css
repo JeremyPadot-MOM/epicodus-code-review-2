@@ -32,7 +32,7 @@ h3{
   margin-right: auto;
   width: 50%;
 }
-/* html { 
+/* html {   ** background image behind text? doesnt work?**
   background: url(https://i.ytimg.com/vi/Q5WsF_uaAZk/maxresdefault.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -72,4 +72,11 @@ form{
   border:rgb(124, 8, 8);;
   border-style: solid;
   padding: 1px;
+}
+.skelly{
+  float:left;
+  height: auto;
+  width: 100px;
+  margin: 0px;
+  padding: 5px;
 }
