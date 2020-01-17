@@ -1,0 +1,20 @@
+h1{
+  text-align: center;
+  font-family: plilosopher;
+  font-size: 70px;
+}
+p{
+  text-align: center;
+}
+h2{
+  text-align: center;
+}
+body{
+  
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
