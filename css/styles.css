@@ -51,13 +51,25 @@ form{
 }
 #react{
   display:none;
+  border:rgb(124, 8, 8);;
+  border-style: solid;
+  padding: 1px;
 }
 #js{
   display:none;
+  border:rgb(124, 8, 8);;
+  border-style: solid;
+  padding: 1px;
 }
 #c{
   display:none;
+  border:rgb(124, 8, 8);;
+  border-style: solid;
+  padding: 1px;
 }
 #doom{
   display:none;
+  border:rgb(124, 8, 8);;
+  border-style: solid;
+  padding: 1px;
 }
