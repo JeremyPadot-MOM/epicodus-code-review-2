@@ -5,12 +5,16 @@ h1{
 }
 p{
   text-align: center;
+  padding-bottom:10px;
 }
 h2{
   text-align: center;
 }
-body{
-  
+
+h3{
+  text-align:center;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .center {
   display: block;
@@ -18,3 +22,10 @@ body{
   margin-right: auto;
   width: 50%;
 }
+/* html { 
+  background: url(https://i.ytimg.com/vi/Q5WsF_uaAZk/maxresdefault.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+} */
