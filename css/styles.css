@@ -4,9 +4,19 @@ h1{
   font-size: 70px;
 }
 p{
-  text-align: center;
-  padding-bottom:10px;
+  text-align: left;
+  padding-bottom:5px;
+  font-size:17px;
+  line-height:1.5;
+  padding-top: 20px;
+ 
 }
+.border{
+  border:rgb(124, 8, 8);;
+  border-style: solid;
+  padding: 1px;
+}
+
 h2{
   text-align: center;
 }
@@ -29,3 +39,13 @@ h3{
   -o-background-size: cover;
   background-size: cover;
 } */
+.wizard{
+  float: left;
+  height: auto;
+  width: 160px;
+  margin: 20px;
+  padding: 5px;
+}
+form{
+  padding:14px;
+}
