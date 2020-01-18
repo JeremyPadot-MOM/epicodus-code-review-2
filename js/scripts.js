@@ -3,8 +3,6 @@ $(document).ready(function(){
   event.preventDefault();
   var result = calculate()
 
-  
-    
     if (result === 15) {
       $("#react").show();
       $("#c").hide();
@@ -22,24 +20,20 @@ $(document).ready(function(){
       $("#react").hide();
       $("#doom").hide();
     } else  {
-          $("#doom").show();
-          $("#js").hide();
-          $("#react").hide();
-          $("#c").hide();
+      $("#doom").show();
+      $("#js").hide();
+      $("#react").hide();
+      $("#c").hide();
         
       }
       })
 
-    function calculate() {
+  function calculate() {
   var path = parseInt($("#path").val());
   var item = parseInt($("#item").val());
   var goblin = parseInt($("#goblin").val());
   var village = parseInt($("#village").val());
   var castle = parseInt($("#castle").val());
   return path + item + goblin + village + castle;
-
-
 };
-
-
 });
