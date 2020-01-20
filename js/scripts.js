@@ -13,7 +13,6 @@ $(document).ready(function(){
       $("#react").hide();
       $("#js").hide();
       $("#doom").hide();
-
     } else if (result === 5|| result === 6 || result === 7|| result === 8|| result === 9) {
       $("#js").show();
       $("#c").hide();
@@ -24,7 +23,6 @@ $(document).ready(function(){
       $("#js").hide();
       $("#react").hide();
       $("#c").hide();
-        
       }
       })
 
