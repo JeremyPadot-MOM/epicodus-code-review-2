@@ -128,7 +128,7 @@ form{
   font-family: fantasy;
   font-weight: bolder;
   font-weight: 900;
-
+  background-color: seashell;
 }
 
 .container {
@@ -147,4 +147,24 @@ strong{
 .form-control{
  background-color: black;
  color: cornsilk;
+}
+#begin{
+  display:none;
+}
+
+.button{
+  cursor: pointer;
+  height:50px; 
+  width:100px; 
+  margin: -20px -50px; 
+  position:relative;
+  top:50%; 
+  left:50%;
+  border: rgb(134, 233, 109);
+  border-style: solid;
+  text-align: center;
+  font-family: fantasy;
+  font-weight: bolder;
+  font-weight: 900;
+  background-color: seashell;
 }

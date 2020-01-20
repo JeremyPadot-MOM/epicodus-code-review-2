@@ -34,4 +34,8 @@ $(document).ready(function(){
   var castle = parseInt($("#castle").val());
   return path + item + goblin + village + castle;
 };
+$(".button").click(function() {
+  $("#begin").show()
+  
+});
 });
