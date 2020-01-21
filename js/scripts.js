@@ -1,7 +1,7 @@
 $(document).ready(function(){
   $("form#survey").submit(function(){
-  event.preventDefault();
-  var result = calculate()
+    event.preventDefault();
+    var result = calculate()
 
     if (result === 15) {
       $("#react").show();
@@ -23,19 +23,33 @@ $(document).ready(function(){
       $("#js").hide();
       $("#react").hide();
       $("#c").hide();
+      $(".wizard").fadeOut();
+      $(".skelly").fadeIn().css("display", "inline-block");
       }
-      })
+    })
 
   function calculate() {
-  var path = parseInt($("#path").val());
-  var item = parseInt($("#item").val());
-  var goblin = parseInt($("#goblin").val());
-  var village = parseInt($("#village").val());
-  var castle = parseInt($("#castle").val());
-  return path + item + goblin + village + castle;
-};
-$(".button").click(function() {
-  $("#begin").show()
-  
-});
+    var path = parseInt($("#path").val());
+    var item = parseInt($("#item").val());
+    var goblin = parseInt($("#goblin").val());
+    var village = parseInt($("#village").val());
+    var castle = parseInt($("#castle").val());
+    return path + item + goblin + village + castle;
+  };
+
+// $("#continue").click(function() {
+// $(".container").fadeIn();
+// });
+
+  $(".button").click(function() {
+    $("#begin").fadeIn();
+    $("#quest-intro").fadeOut();
+    $(".button").fadeOut();
+    $("#quest-2").fadeIn().css("display", "inline-block");
+  });
+
+  $("#button").click(function() {
+    $("#quest-2").fadeOut();
+    $("#begin").fadeOut();
+  });
 });

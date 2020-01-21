@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/bootstrap-3.3.7-dist 2/css/bootstrap.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Philosopher&display=swap" rel="stylesheet">
+  <script src="js/jquery-3.4.1 (2).js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Potion Quest</title>
+</head>
+<body>
+<div class="containter">
+  <h1>Potion Quest!</h1>
+  <img class="center"src="img/swordy_md_clr.gif" alt="sword">
+  <img class="center"src="img/traveler.jpg" alt="resting traveler">
+  <h2>Level 1 START</h2>
+  <h3>"The Wizard" </h3>
+  <!-- <button id="continue">Continue</button> -->
+  <div class="border">
+    <div class="row">
+      <div class="col-md-12">
+        <p id="quest-2" class="quest">"Hurry now! I am a master of Magiks! Not patience!"</p>
+        <img class="wizard"src="img/wizard2.png" alt="wizard">
+        <p id="quest-intro">"Aaaahh, you're awake! You seem fit enough for a quest! Hmmm... lets see.. lets see.. where is it.. where is it.. Ah! here it is."<strong> The wizard sorts through his pack and produces a blue vial that seems to be glowing.</strong> "Courageous adventurer, if you answer these questions I will give you this vial. Hmmmm yes. It shall grant thee knowledge of one of three languages. Only one! <em>Yesss.</em> A powerful language it is. <em>Very powerful.</em> However! If you fail to answer the questions you will meet your DOOOOOM!" <strong>The wizard places the vial in his sleeve and raises his staff.</strong> "You may begin!"</p>
+      </div>
+    </div>
+    <a class="button">Click to begin</a>
+    
+  <!--put the border div back on this line-->
+    <div id="begin">
+      <form id="survey">
+        <div class="form-group">
+          <label for="path">You are walking through a forest, there are three paths. Which do you take? </label>
+          <select class="form-control" id="path">
+            <option>"Which do you choose?"</option>
+            <option value="1">The clear road heavily traveled</option>
+            <option value="2">The dark sultry path into the darkness</option>
+            <option value="3">You're a wizard and walking's for horses. You teleport. </option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="item">You find a chest deep in a dark dungeon. You can only carry one item back, which shall it be!?</label>
+          <select class="form-control" id="item">
+            <option>"Which do you choose wise adventurer?"</option>
+            <option value="1">The Sword!</option>
+            <option value="2">The Shield!</option>
+            <option value="3">The Staff!</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="goblin">"You find a mortally wounded Gobin in a cave, it seems to beg for its life in a tongue you cannot speak. What shall you do!?"</label>
+          <select class="form-control" id="goblin">
+            <option>"Hmmm? Hurry up now! Choose your answer!"</option>
+            <option value="1">A quick death, live by the sword!</option>
+            <option value="2">Heal the goblin, I have plenty of potions</option>
+            <option value="3">Blink the Goblin to an infinite void beyond space and time. Muuuhahahaha! I am the god of destruction!</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="village">A poor and unfortunate village wants to pay you for slaying a giant whos been pillaging their land. Do you accept the reward? </label>
+          <select class="form-control" id="village">
+            <option>"Make a wise choice I haven't all day!"</option>
+            <option value="1">Slaying giants is my middle name! The village can keep the reward</option>
+            <option value="2">Decline the reward and offer to protect the village until harvest</option>
+            <option value="3">Take the reward and buy a pair of Gucci slides to match your robes and steeple hat</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="castle">Your final question. The castle is lost and battle grim. What do you do?</label>
+          <select class="form-control" id="castle">
+          <option>"Do not linger traveler! Choose!"</option>
+          <option value="1">Continue the fight and die by the sword</option>
+          <option value="2">Help the villages and wounded escape and organize a retreat</option>
+          <option value="3">Cast wall of fire! Burn it all! No one makes it out alive!</option>
+        </select>
+      </div>
+    <div class="output">
+      <button id="button" type="submit" name="button">Drink the potion</button>
+    </div>
+    
+      <!--below is the begin close div-->
+    </div> 
+  <div id="quest-3" class="output">
+    <div id="react">
+      <p class="quest">
+        <strong>
+          The wizard raises his staff and produces the vial of potion. 
+          Lights swirling, wind howling, a powerful magic overtakes you. The vial floats into your hands and the wizard beckons you to drink.
+        </strong>
+        "HAHAHAHAHA Drink my child! Drink! Yes! Your fate is certain!"
+        <strong>
+          You drink the potion and feel rejuvinated. Your mind is tingling with a 
+          sensation of new knowledge. Powerful vibrations flow though your veins.
+        </strong>
+        " R E A C T. YES! The language is REACT! Oh the power! A library for building 
+        user interfaces! Oh you will go far indeed!"
+        <strong>
+          Your vision becomes blurry and everything begins to fade. Beep. Beep. Beep. 
+          Your alarm is ringing. You wake up in your bed. The year is 2020. The smell of last nights pizza rolls still lingers in the air. Te musty apartment is buzzing to the sound of t.v. static. Late for work. You lie back on your bed. Whats the point. As you turn to your side and gaze unfocused at the wall. On the nightstand you see a small figurine of a wizard. Hes holding a small vial. You let out a defeated sigh.
+        </strong>".. Uhhgg.. Maybe I should go to programming school.."
+        <strong> END.</strong>
+      </p>
+    </div>
+    
+    <div id="c">
+      <p class="quest">
+        <strong>The wizard raises his staff and produces the vial of potion. Lights swirling, wind howling, a powerful magic overtakes you. The vial floats into your hands and the wizard beckons you to drink.</strong>"HAHAHAHAHA Drink my child! Drink! Yes! Your fate is certain!"<strong>You drink the potion and feel rejuvinated. Your mind is and new knowledge flows though your veins.</strong>" C #. YES! The language is C#! Oh the power! It's a general-purpose, multi-paradigm programming language! Oh you will go far indeed!"<strong>Your vision becomes blurry and everything begins to fade. Beep. Beep. Beep. Your alarm is ringing. You wake up in your bed. The year is 2020. The smell of last nights pizza rolls still lingers in the air. The musty apartment is buzzing to the sound of t.v. static. Late for work. You lie back on your bed. Whats the point. As you turn to your side and gaze unfocused at the wall. On the nightstand you see a small figurine of a wizard. Hes holding a small vial. You let out a defeated sigh.</strong>".. Uhhgg.. Maybe I should go to programming school.."<strong> END.</strong>
+      </p>
+    </div>
+    <div id="js">
+      <p class="quest">
+        <strong>The wizard raises his staff and produces the vial of potion. Lights swirling, wind howling, a powerful magic overtakes you. The vial floats into your hands and the wizard beckons you to drink.</strong>"HAHAHAHAHA Drink my child! Drink! Yes! Your fate is certain!"<strong>You drink the potion and feel rejuvinated. Your mind is tingling and new knowledge flows though your veins.</strong>" J A V A S C R I P T ! YES! The language is JavaScript! Oh the power! It's an object oriented computer programming language to create interactive effects within web browsers! Oh you will go far indeed!"<strong>Your vision becomes blurry and everything begins to fade. Beep. Beep. Beep. Your alarm is ringing. You wake up in your bed. The year is 2020. The smell of last nights pizza rolls still lingers in the air. The musty apartment is buzzing to the sound of t.v. static. Late for work. You lie back on your bed. Whats the point. As you turn to your side and gaze unfocused at the wall. On the nightstand you see a small figurine of a wizard. Hes holding a small vial. You let out a defeated sigh.</strong>".. Uhhgg.. Maybe I should go to programming school.."<strong> END.</strong>
+      </p>
+    </div>
+      
+    <div id="doom">
+      <img class="skelly w-1-4" src="img/skelly.png" alt="skelly">
+      <p class="quest w-3-4">
+        "You. Have elected the way of PAIN!" <strong>The wizard casts a firebolt that burns through your armour melting your flesh. You are left a pile of ash and bone.</strong> "Pitty.. such a pitty.."<strong>The wizard retreats into the shadows. You die alone and no one remembers your name.</strong>
+      </p>
+    </div>
+  </div>
+    
+  <!-- end of form/containter -->
+    </form>
+
+    </div>
+    <!-- end of form/containter -->
+    <!-- begin div-->
+  </div>
+<!-- end of begin div-->
+</body>
+</html>

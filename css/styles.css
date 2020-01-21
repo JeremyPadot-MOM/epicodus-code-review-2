@@ -9,10 +9,10 @@ p{
   text-align: left;
   padding-bottom:10px;
   font-size:17px;
-  line-height:1.5;
+  line-height:2;
   padding-top: 20px;
-  color:rgb(245, 245, 245);
-  background-color: rgb(0,0,0,0.5);
+  color:rgb(235, 229, 229);
+
   
 }
 
@@ -23,7 +23,7 @@ label{
 
 #quest-intro{
   text-align: left;
-  padding-bottom:5px;
+  padding-bottom: 1px;
   font-size:17px;
   line-height:2;
   padding-top: 7px;
@@ -46,7 +46,7 @@ h2{
 h3{
   text-align:center;
   padding-top: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 15px;
   color:  rgb(231, 40, 40);
 }
 
@@ -55,66 +55,50 @@ h3{
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+  
 }
-/* html {   ** background image behind text? doesnt work?**
-  background: url(https://i.ytimg.com/vi/Q5WsF_uaAZk/maxresdefault.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-} */
+
 .wizard{
   float: left;
   height: auto;
   width: 160px;
   margin: 20px;
   padding: 5px;
+  position: relative;
 }
 
 form{
   padding:14px;
+
 }
-#react{
+#react {
   display:none;
-  border:rgb(238, 187, 20);
-  border-style: solid;
-  padding: 1px;
+
 }
 
 #js{
   display:none;
-  border:rgb(238, 187, 20);
-  border-style: solid;
-  padding: 1px;
+
 }
 
 #c{
-  display:none;
-  border:rgb(238, 187, 20);
-  border-style: solid;
-  padding: 1px;
+  display:none; 
+
 }
 
 #doom{
   display:none;
-  border:rgb(238, 187, 20);
-  border-style: solid;
-  padding: 1px;
+
 }
 
-.skelly{
-  float:left;
+.skelly {
+  display: inline-block;
+  position: relative;
   height: auto;
-  width: 100px;
-  margin: 0px;
-  padding: 5px;
+  margin: 0;
+  padding: 0;
 }
-/* body{
-  background-color:rgb(88, 47, 155);
-}
-.option{
-  color: rgb(133, 11, 11);
-} */
+
 #button {
   height:50px; 
   width:100px; 
@@ -125,14 +109,14 @@ form{
   border: rgb(134, 233, 109);
   border-style: solid;
   text-align: center;
-  font-family: fantasy;
+  font-family: philosopher;
   font-weight: bolder;
   font-weight: 900;
   background-color: seashell;
 }
 
 .container {
-  display: flex;
+  display:none;
   justify-content: center;
   align-items: center;
   align-content: space-evenly;
@@ -163,8 +147,56 @@ strong{
   border: rgb(134, 233, 109);
   border-style: solid;
   text-align: center;
-  font-family: fantasy;
+  font-family: philosopher;
   font-weight: bolder;
   font-weight: 900;
   background-color: seashell;
 }
+
+#continue {
+  cursor: pointer;
+  height: 50px; 
+  width: 100px; 
+  margin: -20px -50px; 
+  position:relative;
+  top: 50%; 
+  left: 50%;
+  border: rgb(134, 233, 109);
+  border-style: solid;
+  text-align: center;
+  font-family: philosopher;
+  font-weight: bolder;
+  font-weight: 900;
+  background-color: seashell;
+}
+
+.quest {
+  text-align: left;
+  padding-bottom: 1px;
+  font-size: 17px;
+  line-height: 2;
+  padding-top: 7px;
+  color:rgb(235, 229, 229);
+  background-color: rgb(0,0,0,0.5);
+}
+
+#quest-2 {
+  display: none;
+}
+
+#quest-3 {
+  display: inline-block;
+}
+
+.w-1-4 {
+  display: inline-block;
+  width: 25%;
+}
+.w-3-4 {
+  display: inline-block;
+  width: 70%;
+}
+/* .output{
+  text-align: left;
+  display: inline;
+} */
